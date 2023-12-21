@@ -35,11 +35,11 @@ app.use('/', commentsRoute);
 app.use('/', userRoute);
 app.use('/', votesRoute);
 
-const mongoURL = process.env.DB_URL;
+const mongoURL = process.env.MONGO_DOCKER_URI;
 if (!mongoURL) throw Error('Missing db url');
 mongoose.connect(mongoURL)
     .then(() => {
-        const port = parseInt(process.env.PORT || '3000');
+        const port = parseInt(process.env.PORT || '8000');
         app.listen(port, () => {
             console.log('Server listening on port ' + port);
         })
