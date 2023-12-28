@@ -1,4 +1,5 @@
 // index.ts
+// index.ts
 import express, { Request, Response, Express } from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
@@ -18,12 +19,13 @@ app.use(express.json());
 
 // Connect to the database
 connectDB().then(() => {
-  // Routes
-  app.use('/', authRoute);
-  app.use('/', postsRoute);
-  app.use('/', commentsRoute);
-  app.use('/', userRoute);
-  app.use('/', votesRoute);
+
+// Routes
+app.use('/', authRoute);
+app.use('/', postsRoute);
+app.use('/', commentsRoute);
+app.use('/', userRoute);
+app.use('/', votesRoute);
 
   const port = parseInt(process.env.PORT || '8000');
   app.listen(port, () => {
