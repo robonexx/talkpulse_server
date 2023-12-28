@@ -1,5 +1,6 @@
 # This is the backend / server for TalkPulse
 
+
 Creating a mern stack app - reddit inspired
 
 (Will change and clean this later, make it nicer)
@@ -51,3 +52,27 @@ Structure (to follow, might change it)
 ├── package.json
 └── tsconfig.json
 ```
+
+
+NEXT UP NODEMAILER!!!
+
+TODO:
+Verification [x] - working on live site
+
+SUBREDDITS!
+ADD model:              []
+ADD controllers:        []
+ADD routing:            []
+
+REDIRECTS
+Add redirects to:
+comments:   []
+posts:      []
+delete:     []
+
+REPLIES!
+ADD model:              []
+ADD controllers:        []
+ADD routing:            []
+
+ADDIONAL STYLING
