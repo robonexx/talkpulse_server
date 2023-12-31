@@ -58,19 +58,24 @@ NEXT UP NODEMAILER!!!
 
 TODO:
 Verification [x] - working on live site
+Password reset [x] - works on live site
+Voting both comments and post [x] - works on live and local 
+
+USER!
+Password verification [x]
+Password reset [x]
+
+IMAGES! 
+Add images []
+
 
 SUBREDDITS!
 ADD model:              []
 ADD controllers:        []
 ADD routing:            []
 
-REDIRECTS
-Add redirects to:
-comments:   []
-posts:      []
-delete:     []
 
-REPLIES!
+FUTURE ADDS REPLIES!
 ADD model:              []
 ADD controllers:        []
 ADD routing:            []
