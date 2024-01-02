@@ -108,8 +108,7 @@ export const updatePost = async (req: Request, res: Response) => {
         { $set: updatedFields },
         { new: true }
       );
-
-      res.status(200).json(updatedPost);
+      res.status(200).json({ message: 'Post updated successfully', post: updatedPost });
     } else {
       res.status(401).json('You are not allowed to update this Post');
     }
